@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport"  content="with=device-width, initial-scale=1.0">
+    <title> WELCOME TO THE DEPARTMENT OF COMPUTER SCIENCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  
+  </head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="video.html"><img src="pic 1.png" ></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+      <ul>
+        <li><a href="video.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="Course.html">COURSE</a></li>
+        <li><a href="Faculty.html">FACULTY</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+
+
+
+
+      </ul>
+      </div>
+      <i class="fa fa-bars"onclick="showMenu"()></i>
+
+
+    </nav>
+
+    <div class="text-box">
+      <h1>
+       THE DEPARTMENT OF COMPUTER SCIENCE </h1>
+        <p>
+          YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION
+
+        </p>
+
+
+
+    </div>
+
+
+  </section>
+
+
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+</BODY>
+
+</html>
