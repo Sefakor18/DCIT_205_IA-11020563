@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #19415c;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #444;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
+
+section {
+    padding: 20px;
+}
+
+.program {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.header{
+  min-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30,0.7),rgba(4,9,30,0.7)),url(under_grad_main.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>WELCOME TO THE COMPUTER SCIENCE DEPARTMENT</h1>
+  <p>Empowering the Future with Technology</p>
+</div>
+
+<div class="navbar">
+  <a href="video.html">HOME</a>
+  <a href="About.html">ABOUT</a>
+  <a href="Course.html">COURSE</a>
+  <a href="Faculty.html">FACULTY</a>
+  <a href="Contact.html" class="right">CONTACT</a>
+</div>
+
+
+<section id="undergraduatePrograms">
+  <article class="program">
+      <h2>Bachelor of Science in Computer Science</h2>
+      <p>Develop a strong foundation in computer science principles and applications.</p>
+      <p>Duration: 4 years</p>
+  </article>
+
+  <article class="program">
+      <h2>Bachelor of Science in Software Information Technology</h2>
+      <p>Focus on software and hardware development methodologies, design, and testing.</p>
+      <p>Duration: 4 years</p>
+  </article>
+
+ 
+</section>
+<div class="footer">
+  <h2> @ 2023 Computer Science Department</h2>
+</div>
+
+</body>
+</html>
